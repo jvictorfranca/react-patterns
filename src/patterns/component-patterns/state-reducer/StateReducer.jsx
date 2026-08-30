@@ -1,7 +1,9 @@
+import StateReducer_Impl from "./pattern/StateReducer_Impl"
+
 const StateReducer = () => {
     return (
         <div>
-            StateReducer
+            <StateReducer_Impl />
         </div>
     )
 }

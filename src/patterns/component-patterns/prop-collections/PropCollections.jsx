@@ -1,7 +1,9 @@
+import PropCollections_Impl from "./pattern/PropCollections_Impl"
+
 const PropCollections = () => {
     return (
         <div>
-            PropCollections
+            <PropCollections_Impl/>
         </div>
     )
 }
