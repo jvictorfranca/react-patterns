@@ -1,7 +1,9 @@
+import SearchParams_Impl from "./pattern/SearchParams_Impl"
+
 const SearchParams = () => {
     return (
         <div>
-            SearchParams
+            <SearchParams_Impl/>
         </div>
     )
 }

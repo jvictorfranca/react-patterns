@@ -23,6 +23,7 @@ import HookForm from "./patterns/react-hook-form/hook-form/HookForm";
 import HookFormReusingInputs from "./patterns/react-hook-form/hook-form-reusing-inputs/HookFormReusingInputs";
 import SearchParams from "./patterns/react-router-dom/search-params/SearchParams";
 import CompoundComponent from "./patterns/component-patterns/compound-components/CompoundComponent";
+import ProductDetail from "./patterns/react-router-dom/search-params/pattern/ProductDetail";
 
 function App() {
 
@@ -63,6 +64,8 @@ function App() {
         <Route path="/react-router-dom" element={ <ReactRouterDom />}/>
           {/* Routes for react router dom */}
           <Route path="/react-router-dom/search-params" element={ <SearchParams />}/>
+            {/* Route to test for query params and search params  */}
+            <Route path="/react-router-dom/search-params/products/:id" element={ <ProductDetail />}/>
 
         
         <Route path="*" element={<NotFound />} /> {/* Catch-all */}
