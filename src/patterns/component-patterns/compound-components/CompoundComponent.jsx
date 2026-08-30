@@ -1,7 +1,9 @@
+import CompoundComponentImpl from "./pattern/CompundComponent_Impl"
+
 const CompoundComponent = () => {
     return (
         <div>
-            CompoundComponent
+            <CompoundComponentImpl />
         </div>
     )
 }
