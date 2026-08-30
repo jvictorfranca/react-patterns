@@ -1,7 +1,9 @@
+import HookFormReusingInputs_Impl from "./pattern/HookFormReusingInputs_Impl"
+
 const HookFormReusingInputs = () => {
     return (
         <div>
-            HookFormReusingInputs
+            <HookFormReusingInputs_Impl />
         </div>
     )
 }

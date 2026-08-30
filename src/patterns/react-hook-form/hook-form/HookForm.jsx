@@ -1,7 +1,9 @@
+import HookForm_Impl from "./pattern/HookForm_Impl"
+
 const HookForm = () => {
     return (
         <div>
-            HookForm
+            <HookForm_Impl />
         </div>
     )
 }

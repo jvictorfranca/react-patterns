@@ -26,9 +26,6 @@ const ProductDetail = () => {
       <p>{product.description}</p>
       <p><strong>ID:</strong> {product.id}</p>
 
-      {/* Back to products link */}
-      <Link to="/products">⬅️ Back to Products</Link> |{" "}
-
       {/* Product reviews link */}
       <Link to={`/products/${product.id}/reviews`}>
         📝 View Reviews for {product.name}
