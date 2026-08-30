@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-// Shared style function for NavLink
+// Shared style function for NavLink. Uses IsActive that comes from NavLink
 const navLinkStyle = ({ isActive }) => ({
   margin: "0 1rem",
   textDecoration: "none",
