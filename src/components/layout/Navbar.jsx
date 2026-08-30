@@ -12,7 +12,11 @@ const Navbar = () => {
   return (
     <nav>
       <NavLink to="/" style={navLinkStyle}>Home</NavLink> |{" "}
-      <NavLink to="/about" style={navLinkStyle}>About</NavLink> |{" "}
+      <NavLink to="/component-patterns" style={navLinkStyle}>Component Patterns</NavLink> |{" "}
+      <NavLink to="/custom-hooks" style={navLinkStyle}>Custom Hooks</NavLink> |{" "}
+      <NavLink to="/performance-patterns" style={navLinkStyle}>Performance Patterns</NavLink> |{" "}
+      <NavLink to="/react-hook-form" style={navLinkStyle}>React Hook Form</NavLink> |{" "}
+      <NavLink to="/react-router-dom" style={navLinkStyle}>React Router DOM</NavLink> |{" "}
       
     </nav>
   );
