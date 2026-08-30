@@ -1,7 +1,9 @@
+import UseCallback_Impl from "./pattern/UseCallback_Impl"
+
 const UseCallback = () => {
     return (
         <div>
-            UseCallback
+            <UseCallback_Impl />
         </div>
     )
 }

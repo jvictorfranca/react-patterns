@@ -12,7 +12,7 @@ const Footer = () => {
         borderTop: "1px solid #ddd",
       }}
     >
-      © {new Date().getFullYear()} My React App
+      © {new Date().getFullYear()} My React App - Joao Franca
     </footer>
   );
 };

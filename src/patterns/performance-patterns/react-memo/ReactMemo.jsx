@@ -1,7 +1,9 @@
+import ReactMemo_Impl from "./pattern/ReactMemo_Impl"
+
 const ReactMemo = () => {
     return (
         <div>
-            ReactMemo
+            <ReactMemo_Impl />
         </div>
     )
 }
