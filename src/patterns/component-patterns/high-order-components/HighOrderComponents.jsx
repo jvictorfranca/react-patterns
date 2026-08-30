@@ -1,7 +1,9 @@
+import HighOrderComponents_Impl from "./pattern/HighOrderComponents_Impl"
+
 const HighOrderComponents = () => {
     return (
         <div>
-            HighOrderComponents
+            <HighOrderComponents_Impl />
         </div>
     )
 }
