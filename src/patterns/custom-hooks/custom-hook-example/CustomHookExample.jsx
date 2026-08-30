@@ -1,7 +1,9 @@
+import CustomHookExample_impl from "./CustomHookExample_impl"
+
 const CustomHookExample = () => {
     return (
         <div>
-            CustomHookExample
+            <CustomHookExample_impl />
         </div>
     )
 }

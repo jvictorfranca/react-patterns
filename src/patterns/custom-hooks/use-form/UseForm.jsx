@@ -1,7 +1,9 @@
+import UseForm_Impl from "./UseForm_Impl"
+
 const UseForm = () => {
     return (
         <div>
-            UseForm
+            <UseForm_Impl />
         </div>
     )
 }
