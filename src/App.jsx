@@ -25,9 +25,9 @@ import SearchParams from "./patterns/react-router-dom/search-params/SearchParams
 import CompoundComponent from "./patterns/component-patterns/compound-components/CompoundComponent";
 import ProductDetail from "./patterns/react-router-dom/search-params/pattern/ProductDetail";
 import FetchStateManagement from "./patterns/fetch-state-management/FetchStateManagement";
-import TanstackQuery from "./patterns/fetch-state-management/tanstack-query/pattern/TanstackQuery";
-import Zustand from "./patterns/fetch-state-management/zustand/pattern/zustand";
-import Redux from "./patterns/fetch-state-management/redux/pattern/Redux";
+import TanstackQuery from "./patterns/fetch-state-management/tanstack-query/TanstackQuery";
+import Zustand from "./patterns/fetch-state-management/zustand/Zustand";
+import Redux from "./patterns/fetch-state-management/redux/Redux";
 import ErrorBoundary from "./patterns/fetch-state-management/error-boundary/ErrorBoundary";
 
 function App() {
