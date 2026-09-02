@@ -24,6 +24,11 @@ import HookFormReusingInputs from "./patterns/react-hook-form/hook-form-reusing-
 import SearchParams from "./patterns/react-router-dom/search-params/SearchParams";
 import CompoundComponent from "./patterns/component-patterns/compound-components/CompoundComponent";
 import ProductDetail from "./patterns/react-router-dom/search-params/pattern/ProductDetail";
+import FetchStateManagement from "./patterns/fetch-state-management/FetchStateManagement";
+import TanstackQuery from "./patterns/fetch-state-management/tanstack-query/pattern/TanstackQuery";
+import Zustand from "./patterns/fetch-state-management/zustand/pattern/zustand";
+import Redux from "./patterns/fetch-state-management/redux/pattern/Redux";
+import ErrorBoundary from "./patterns/fetch-state-management/error-boundary/ErrorBoundary";
 
 function App() {
 
@@ -66,6 +71,14 @@ function App() {
           <Route path="/react-router-dom/search-params" element={ <SearchParams />}/>
             {/* Route to test for query params and search params  */}
             <Route path="/react-router-dom/search-params/products/:id" element={ <ProductDetail />}/>
+
+          <Route path="/fetch-state-management" element={<FetchStateManagement />}/>
+            {/* Routes for fetch state management */}
+            <Route path="/fetch-state-management/tanstack-query" element={<TanstackQuery />}/>
+            <Route path="/fetch-state-management/zustand" element={<Zustand />}/>
+            <Route path="/fetch-state-management/redux" element={<Redux />}/>
+            <Route path="/fetch-state-management/error-boundary" element={<ErrorBoundary />}/>
+
 
         
         <Route path="*" element={<NotFound />} /> {/* Catch-all */}

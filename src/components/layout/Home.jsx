@@ -34,6 +34,13 @@ const Home = () => {
       path: "/react-router-dom",
       icon: "🧭",
     },
+
+        {
+      title: "Fetch & State management",
+      description: "Learn async data fetch, & state management with Zustand, Redux, and react query.",
+      path: "/fetch-state-management",
+      icon: "🗃️",
+    },
   ];
 
   return (

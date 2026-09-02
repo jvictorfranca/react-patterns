@@ -93,8 +93,8 @@
   transform: translateX(5px);
 }
 
-/* Last card takes the full row */
-.home-card:last-child {
+/* Last card takes the full row only when the total is odd */
+.home-card:last-child:nth-child(odd) {
   grid-column: 1 / -1;
 }
 
@@ -112,7 +112,7 @@
     grid-template-columns: 1fr;
   }
 
-  .home-card:last-child {
+  .home-card:last-child:nth-child(odd) {
     grid-column: auto;
   }
 }
