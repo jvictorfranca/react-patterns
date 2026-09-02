@@ -29,6 +29,7 @@ import TanstackQuery from "./patterns/fetch-state-management/tanstack-query/Tans
 import Zustand from "./patterns/fetch-state-management/zustand/Zustand";
 import Redux from "./patterns/fetch-state-management/redux/Redux";
 import ErrorBoundary from "./patterns/fetch-state-management/error-boundary/ErrorBoundary";
+import TanstackQuery_Impl_Pokemons from "./patterns/fetch-state-management/tanstack-query/pattern/components/TanstackQuery_Impl_Pokemons";
 
 function App() {
 
@@ -74,10 +75,13 @@ function App() {
 
           <Route path="/fetch-state-management" element={<FetchStateManagement />}/>
             {/* Routes for fetch state management */}
-            <Route path="/fetch-state-management/tanstack-query" element={<TanstackQuery />}/>
             <Route path="/fetch-state-management/zustand" element={<Zustand />}/>
             <Route path="/fetch-state-management/redux" element={<Redux />}/>
             <Route path="/fetch-state-management/error-boundary" element={<ErrorBoundary />}/>
+            <Route path="/fetch-state-management/tanstack-query" element={<TanstackQuery />}/>
+              {/* Transtack query pokemons */}
+              <Route path="/fetch-state-management/tanstack-query/pokemons" element={<TanstackQuery_Impl_Pokemons />}/>
+              
 
 
         
