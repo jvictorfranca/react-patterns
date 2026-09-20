@@ -1,7 +1,7 @@
 import CounterContextProvider from './state/CounterContextProvider'
 import ValueCounter from './ValueCounter'
 
-function CountextReducer_Impl() {
+function ContextReducer_Impl() {
 
   return (
     <CounterContextProvider>
@@ -12,4 +12,4 @@ function CountextReducer_Impl() {
   )
 }
 
-export default CountextReducer_Impl
+export default ContextReducer_Impl

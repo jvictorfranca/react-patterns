@@ -1,8 +1,8 @@
-import { useContext } from "react"
-import counterContext from "./state/counterContext"
+import { useCounter } from "./state/CounterContextProvider"
 
 const ValueCounter = () => {
-    const {counterState, counterDispatch} = useContext(counterContext)
+
+    const {counterState, counterDispatch} = useCounter()
 
     const buttonStyle = {backgroundColor: "red", color: "white", padding: "2px 5px", borderRadius: "4px"}
 

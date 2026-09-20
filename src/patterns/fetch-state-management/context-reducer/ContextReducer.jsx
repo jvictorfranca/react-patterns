@@ -12,13 +12,14 @@ const ContextReducer = () => {
       }}
     >
       <p style={{ lineHeight: "1.6", color: "#555" }}>
-        Error Boundaries allow React applications to gracefully handle
-        rendering errors in a specific part of the component tree. Instead of
-        crashing the entire application, an Error Boundary can display a
-        fallback UI while the rest of the application continues working.
-        In this example, we use <code>react-error-boundary</code> to catch
-        errors, display a fallback component, and provide a way to reset the
-        error state.
+        The Context + Reducer pattern combines React's Context API with the
+        useReducer hook to manage and share state across multiple components.
+        The reducer centralizes state updates through explicit actions, while
+        Context makes the state and dispatch function available to components
+        without having to pass them through props. In this example, a counter
+        state is managed by a reducer with ADD and SUB actions, and the state
+        and dispatch function are exposed through a custom useCounter hook.
+        Try to change the State clicking on the buttons bellow and checking the count.
       </p>
 
       <CountextReducer_Impl/>
