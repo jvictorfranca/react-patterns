@@ -22,6 +22,11 @@ const FetchStateManagement = () => {
       description: "Handle rendering errors with an Error Boundary function.",
       path: "/fetch-state-management/error-boundary",
     },
+    {
+      title: "Context and reducer",
+      description: "Use react context together with React reducer to handle complex context management.",
+      path: "/fetch-state-management/context-reducer",
+    },
   ];
 
   return (
