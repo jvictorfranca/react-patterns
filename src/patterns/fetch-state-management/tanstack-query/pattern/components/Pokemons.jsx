@@ -40,7 +40,7 @@ const Courses = () => {
         }}
       >
         <Link
-          to="/fetch-state-management/tanstack-query"
+          to="/async-patterns/tanstack-query"
           style={{
             display: "inline-flex",
             alignItems: "center",

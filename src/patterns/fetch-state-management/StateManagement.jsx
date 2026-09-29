@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 
-const FetchStateManagement = () => {
+const StateManagement = () => {
   const patterns = [
-    {
-      title: "TanStack Query",
-      description: "Use React Query (TanStack Query) with useQuery for API calls.",
-      path: "/fetch-state-management/tanstack-query",
-    },
     {
       title: "Zustand",
       description: "Manage global application state with Zustand.",
@@ -31,7 +26,7 @@ const FetchStateManagement = () => {
 
   return (
     <div>
-      <h1>Fetch State Management</h1>
+      <h1>State Management</h1>
 
       <div className="cards">
         {patterns.map((pattern) => (
@@ -45,4 +40,4 @@ const FetchStateManagement = () => {
   );
 };
 
-export default FetchStateManagement;
+export default StateManagement;

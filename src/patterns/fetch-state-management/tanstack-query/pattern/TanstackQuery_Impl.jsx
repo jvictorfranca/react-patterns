@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Courses from "./components/TanstackQuery_Impl_Pokemons";
 
 const Home = () => (
   <div
@@ -15,7 +14,7 @@ const Home = () => (
     </p>
 
     <Link
-      to="/fetch-state-management/tanstack-query/pokemons"
+      to="/async-patterns/tanstack-query/pokemons"
       style={{
         display: "inline-flex",
         alignItems: "center",

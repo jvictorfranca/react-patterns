@@ -35,12 +35,20 @@ const Home = () => {
       icon: "🧭",
     },
 
-        {
-      title: "Fetch & State management",
-      description: "Learn async data fetch, & state management with Zustand, Redux, and react query.",
+    {
+      title: "State management",
+      description: "Learn State management with Zustand, Redux, and react query.",
       path: "/fetch-state-management",
       icon: "🗃️",
     },
+    {
+      title: "Asynchronous Patterns",
+      description:
+        "Learn asynchronous data management with TanStack Query and real-time updates with server event emitters.",
+      path: "/async-patterns",
+      icon: "⚡",
+},
+
   ];
 
   return (

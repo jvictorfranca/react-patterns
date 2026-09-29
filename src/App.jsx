@@ -24,7 +24,7 @@ import HookFormReusingInputs from "./patterns/react-hook-form/hook-form-reusing-
 import SearchParams from "./patterns/react-router-dom/search-params/SearchParams";
 import CompoundComponent from "./patterns/component-patterns/compound-components/CompoundComponent";
 import ProductDetail from "./patterns/react-router-dom/search-params/pattern/ProductDetail";
-import FetchStateManagement from "./patterns/fetch-state-management/FetchStateManagement";
+import FetchStateManagement from "./patterns/fetch-state-management/StateManagement";
 import TanstackQuery from "./patterns/fetch-state-management/tanstack-query/TanstackQuery";
 import Zustand from "./patterns/fetch-state-management/zustand/Zustand";
 import Redux from "./patterns/fetch-state-management/redux/Redux";
@@ -32,6 +32,7 @@ import ErrorBoundary from "./patterns/fetch-state-management/error-boundary/Erro
 import TanstackQuery_Impl_Pokemons from "./patterns/fetch-state-management/tanstack-query/pattern/components/TanstackQuery_Impl_Pokemons";
 import ContextReducer from "./patterns/fetch-state-management/context-reducer/ContextReducer";
 import FowardRef from "./patterns/component-patterns/foward-red/FowardRef";
+import AsyncPatterns from "./patterns/async-patterns/AsyncPatterns";
 
 function App() {
 
@@ -77,17 +78,19 @@ function App() {
             <Route path="/react-router-dom/search-params/products/:id" element={ <ProductDetail />}/>
 
           <Route path="/fetch-state-management" element={<FetchStateManagement />}/>
-            {/* Routes for fetch state management */}
+            {/* Routes for state management */}
             <Route path="/fetch-state-management/zustand" element={<Zustand />}/>
             <Route path="/fetch-state-management/redux" element={<Redux />}/>
             <Route path="/fetch-state-management/error-boundary" element={<ErrorBoundary />}/>
-            <Route path="/fetch-state-management/tanstack-query" element={<TanstackQuery />}/>
-              {/* Transtack query pokemons */}
-              <Route path="/fetch-state-management/tanstack-query/pokemons" element={<TanstackQuery_Impl_Pokemons />}/>
             <Route path="/fetch-state-management/context-reducer" element={<ContextReducer />}/>
               
 
-
+          <Route path="/async-patterns" element={<AsyncPatterns />}/>
+            {/* Routes for async patterns */}
+            <Route path="/async-patterns/see" element={<Zustand />}/>
+            <Route path="/async-patterns/tanstack-query" element={<TanstackQuery />}/>
+              {/* Transtack query pokemons */}
+              <Route path="/async-patterns/tanstack-query/pokemons" element={<TanstackQuery_Impl_Pokemons />}/>
         
         <Route path="*" element={<NotFound />} /> {/* Catch-all */}
       </Route>
