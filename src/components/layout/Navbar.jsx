@@ -17,7 +17,7 @@ const Navbar = () => {
       <NavLink to="/performance-patterns" style={navLinkStyle}>Performance Patterns</NavLink> |{" "}
       <NavLink to="/react-hook-form" style={navLinkStyle}>React Hook Form</NavLink> |{" "}
       <NavLink to="/react-router-dom" style={navLinkStyle}>React Router DOM</NavLink> |{" "}
-      <NavLink to="/fetch-state-management" style={navLinkStyle}>State management</NavLink> |{" "}
+      <NavLink to="/state-management" style={navLinkStyle}>State management</NavLink> |{" "}
       <NavLink to="/async-patterns" style={navLinkStyle}>Asynchronous Patterns</NavLink> |{" "}
       
     </nav>

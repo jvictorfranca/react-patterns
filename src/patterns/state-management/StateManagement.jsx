@@ -5,22 +5,22 @@ const StateManagement = () => {
     {
       title: "Zustand",
       description: "Manage global application state with Zustand.",
-      path: "/fetch-state-management/zustand",
+      path: "/state-management/zustand",
     },
     {
       title: "Redux & Slice",
       description: "Manage application state using Redux and Redux Toolkit slices.",
-      path: "/fetch-state-management/redux",
+      path: "/state-management/redux",
     },
     {
       title: "Error Boundary",
       description: "Handle rendering errors with an Error Boundary function.",
-      path: "/fetch-state-management/error-boundary",
+      path: "/state-management/error-boundary",
     },
     {
       title: "Context and reducer",
       description: "Use react context together with React reducer to handle complex context management.",
-      path: "/fetch-state-management/context-reducer",
+      path: "/state-management/context-reducer",
     },
   ];
 

@@ -38,7 +38,7 @@ const Home = () => {
     {
       title: "State management",
       description: "Learn State management with Zustand, Redux, and react query.",
-      path: "/fetch-state-management",
+      path: "/state-management",
       icon: "🗃️",
     },
     {
