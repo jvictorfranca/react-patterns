@@ -25,14 +25,15 @@ import SearchParams from "./patterns/react-router-dom/search-params/SearchParams
 import CompoundComponent from "./patterns/component-patterns/compound-components/CompoundComponent";
 import ProductDetail from "./patterns/react-router-dom/search-params/pattern/ProductDetail";
 import FetchStateManagement from "./patterns/state-management/StateManagement";
-import TanstackQuery from "./patterns/state-management/tanstack-query/TanstackQuery";
+import TanstackQuery from "./patterns/async-patterns/tanstack-query/TanstackQuery";
 import Zustand from "./patterns/state-management/zustand/Zustand";
 import Redux from "./patterns/state-management/redux/Redux";
 import ErrorBoundary from "./patterns/state-management/error-boundary/ErrorBoundary";
-import TanstackQuery_Impl_Pokemons from "./patterns/state-management/tanstack-query/pattern/components/TanstackQuery_Impl_Pokemons";
+import TanstackQuery_Impl_Pokemons from "./patterns/async-patterns/tanstack-query/pattern/components/TanstackQuery_Impl_Pokemons";
 import ContextReducer from "./patterns/state-management/context-reducer/ContextReducer";
 import FowardRef from "./patterns/component-patterns/foward-red/FowardRef";
 import AsyncPatterns from "./patterns/async-patterns/AsyncPatterns";
+import ServerEventEmitter from "./patterns/async-patterns/server-event-emitter/ServerEventEmitter";
 
 function App() {
 
@@ -87,7 +88,7 @@ function App() {
 
           <Route path="/async-patterns" element={<AsyncPatterns />}/>
             {/* Routes for async patterns */}
-            <Route path="/async-patterns/see" element={<Zustand />}/>
+            <Route path="/async-patterns/see" element={<ServerEventEmitter />}/>
             <Route path="/async-patterns/tanstack-query" element={<TanstackQuery />}/>
               {/* Transtack query pokemons */}
               <Route path="/async-patterns/tanstack-query/pokemons" element={<TanstackQuery_Impl_Pokemons />}/>

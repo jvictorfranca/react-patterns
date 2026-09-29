@@ -46,7 +46,7 @@ const Home = () => {
       description:
         "Learn asynchronous data management with TanStack Query and real-time updates with server event emitters.",
       path: "/async-patterns",
-      icon: "⚡",
+      icon: "🔄",
 },
 
   ];
