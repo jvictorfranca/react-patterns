@@ -8,6 +8,12 @@ const ComponentPatterns = () => {
       path: "/component-patterns/compound-components",
     },
     {
+      title: "FowardRef",
+      description: "Use React UseRef and FowardRef to expose an API from child to parent.",
+      path: "/component-patterns/foward-ref",
+    },
+
+    {
       title: "Function as Children",
       description: "Use a function as children to create flexible components.",
       path: "/component-patterns/function-as-children",

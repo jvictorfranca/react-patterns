@@ -31,6 +31,7 @@ import Redux from "./patterns/fetch-state-management/redux/Redux";
 import ErrorBoundary from "./patterns/fetch-state-management/error-boundary/ErrorBoundary";
 import TanstackQuery_Impl_Pokemons from "./patterns/fetch-state-management/tanstack-query/pattern/components/TanstackQuery_Impl_Pokemons";
 import ContextReducer from "./patterns/fetch-state-management/context-reducer/ContextReducer";
+import FowardRef from "./patterns/component-patterns/foward-red/FowardRef";
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         <Route path="/component-patterns" element={<ComponentPatterns />}/>
           {/* Component Pattern Routes */}
           <Route path="/component-patterns/compound-components" element={<CompoundComponent/>}/>
+          <Route path="/component-patterns/foward-ref" element={<FowardRef/>}/>
           <Route path="/component-patterns/function-as-children" element={<FunctionAsChildren />}/>
           <Route path="/component-patterns/high-order-components" element={<HighOrderComponents />}/>
           <Route path="/component-patterns/prop-collections" element={<PropCollections />}/>
